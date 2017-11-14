@@ -1,0 +1,8 @@
+<script>
+  colors=["Orchid","RebeccaPurple","CadetBlue","DarkSeaGreen"];
+  var timer=window.setInterval(changeColor, 1000);
+  function changeColor(){
+    var n=Math.round(Math.random()*4);
+    document.body.style.backgroundColor=colors[n];
+  }
+</script>
